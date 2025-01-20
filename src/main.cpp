@@ -1,7 +1,7 @@
-#include "simpleble/SimpleBLE.h"
+#include "simplebluez.h"
 #include <iostream>
 #include <fstream>
-#include <chrono>
+#include <chrono>   
 #include <thread>
 
 int main() {
