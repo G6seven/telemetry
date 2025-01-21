@@ -534,3 +534,79 @@ events:
       Running the C compiler's linker: "/usr/bin/ld" "-v"
       GNU ld version 2.41-38.fc40
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/fmt-src/support/cmake/cxx14.cmake:6 (check_cxx_compiler_flag)"
+      - "build/_deps/fmt-src/support/cmake/cxx14.cmake:46 (fmt_check_cxx_compiler_flag)"
+      - "build/_deps/fmt-src/CMakeLists.txt:127 (include)"
+    checks:
+      - "Performing Test has_std_11_flag"
+    directories:
+      source: "/home/g6seven/Documents/dev/telemetry/build/CMakeFiles/CMakeScratch/TryCompile-KwZiqY"
+      binary: "/home/g6seven/Documents/dev/telemetry/build/CMakeFiles/CMakeScratch/TryCompile-KwZiqY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/g6seven/Documents/dev/telemetry/libs/simpleble/cmake/find;/home/g6seven/Documents/dev/telemetry/build/_deps/fmt-src/support/cmake"
+    buildResult:
+      variable: "has_std_11_flag"
+      cached: true
+      stdout: |
+        Change Dir: '/home/g6seven/Documents/dev/telemetry/build/CMakeFiles/CMakeScratch/TryCompile-KwZiqY'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1d5e3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1d5e3.dir/build.make CMakeFiles/cmTC_1d5e3.dir/build
+        gmake[1]: Entering directory '/home/g6seven/Documents/dev/telemetry/build/CMakeFiles/CMakeScratch/TryCompile-KwZiqY'
+        Building CXX object CMakeFiles/cmTC_1d5e3.dir/src.cxx.o
+        /usr/bin/c++ -Dhas_std_11_flag  -std=gnu++11   -std=c++11 -o CMakeFiles/cmTC_1d5e3.dir/src.cxx.o -c /home/g6seven/Documents/dev/telemetry/build/CMakeFiles/CMakeScratch/TryCompile-KwZiqY/src.cxx
+        Linking CXX executable cmTC_1d5e3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d5e3.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_1d5e3.dir/src.cxx.o -o cmTC_1d5e3
+        gmake[1]: Leaving directory '/home/g6seven/Documents/dev/telemetry/build/CMakeFiles/CMakeScratch/TryCompile-KwZiqY'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "build/_deps/fmt-src/support/cmake/cxx14.cmake:6 (check_cxx_compiler_flag)"
+      - "build/_deps/fmt-src/support/cmake/cxx14.cmake:47 (fmt_check_cxx_compiler_flag)"
+      - "build/_deps/fmt-src/CMakeLists.txt:127 (include)"
+    checks:
+      - "Performing Test has_std_0x_flag"
+    directories:
+      source: "/home/g6seven/Documents/dev/telemetry/build/CMakeFiles/CMakeScratch/TryCompile-jNxFyY"
+      binary: "/home/g6seven/Documents/dev/telemetry/build/CMakeFiles/CMakeScratch/TryCompile-jNxFyY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/g6seven/Documents/dev/telemetry/libs/simpleble/cmake/find;/home/g6seven/Documents/dev/telemetry/build/_deps/fmt-src/support/cmake"
+    buildResult:
+      variable: "has_std_0x_flag"
+      cached: true
+      stdout: |
+        Change Dir: '/home/g6seven/Documents/dev/telemetry/build/CMakeFiles/CMakeScratch/TryCompile-jNxFyY'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1ea3f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1ea3f.dir/build.make CMakeFiles/cmTC_1ea3f.dir/build
+        gmake[1]: Entering directory '/home/g6seven/Documents/dev/telemetry/build/CMakeFiles/CMakeScratch/TryCompile-jNxFyY'
+        Building CXX object CMakeFiles/cmTC_1ea3f.dir/src.cxx.o
+        /usr/bin/c++ -Dhas_std_0x_flag  -std=gnu++11   -std=c++0x -o CMakeFiles/cmTC_1ea3f.dir/src.cxx.o -c /home/g6seven/Documents/dev/telemetry/build/CMakeFiles/CMakeScratch/TryCompile-jNxFyY/src.cxx
+        Linking CXX executable cmTC_1ea3f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ea3f.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_1ea3f.dir/src.cxx.o -o cmTC_1ea3f
+        gmake[1]: Leaving directory '/home/g6seven/Documents/dev/telemetry/build/CMakeFiles/CMakeScratch/TryCompile-jNxFyY'
+        
+      exitCode: 0
+...

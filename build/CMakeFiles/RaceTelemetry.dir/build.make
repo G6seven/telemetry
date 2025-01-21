@@ -92,6 +92,8 @@ RaceTelemetry_EXTERNAL_OBJECTS =
 
 RaceTelemetry: CMakeFiles/RaceTelemetry.dir/src/main.cpp.o
 RaceTelemetry: CMakeFiles/RaceTelemetry.dir/build.make
+RaceTelemetry: libs/simpleble/simplebluez/libsimplebluez.a
+RaceTelemetry: /usr/lib64/libdbus-1.so
 RaceTelemetry: CMakeFiles/RaceTelemetry.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/g6seven/Documents/dev/telemetry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable RaceTelemetry"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RaceTelemetry.dir/link.txt --verbose=$(VERBOSE)

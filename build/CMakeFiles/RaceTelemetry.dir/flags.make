@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/g6seven/Documents/dev/telemetry/include -I/libs/simpleble/simpleble/include
+CXX_INCLUDES = -I/home/g6seven/Documents/dev/telemetry/include -I/libs/simpleble/simplebluez/include/simplebluez -I/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include -I/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/../external/include -I/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/../simpledbus/include -isystem /usr/include/dbus-1.0 -isystem /usr/lib64/dbus-1.0/include
 
 CXX_FLAGS = 
 

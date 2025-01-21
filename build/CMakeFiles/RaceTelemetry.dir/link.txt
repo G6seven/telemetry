@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o -o RaceTelemetry
+/usr/bin/c++ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o -o RaceTelemetry   -L/home/g6seven/Documents/dev/telemetry/libs/simpleble  -Wl,-rpath,/home/g6seven/Documents/dev/telemetry/libs/simpleble libs/simpleble/simplebluez/libsimplebluez.a /usr/lib64/libdbus-1.so

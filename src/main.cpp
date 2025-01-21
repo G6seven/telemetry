@@ -1,4 +1,4 @@
-#include "simplebluez.h"
+#include <simplebluez/Device.h>
 #include <iostream>
 #include <fstream>
 #include <chrono>   
