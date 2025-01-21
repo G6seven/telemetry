@@ -6,15 +6,23 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
   /home/g6seven/Documents/dev/telemetry/libs/simpleble/simpledbus/include/simpledbus/advanced/Interface.h \
   /home/g6seven/Documents/dev/telemetry/libs/simpleble/simpledbus/include/simpledbus/advanced/Proxy.h \
   /home/g6seven/Documents/dev/telemetry/libs/simpleble/simpledbus/include/simpledbus/base/Connection.h \
+  /home/g6seven/Documents/dev/telemetry/libs/simpleble/simpledbus/include/simpledbus/base/Exceptions.h \
   /home/g6seven/Documents/dev/telemetry/libs/simpleble/simpledbus/include/simpledbus/base/Holder.h \
   /home/g6seven/Documents/dev/telemetry/libs/simpleble/simpledbus/include/simpledbus/base/Message.h \
   /home/g6seven/Documents/dev/telemetry/libs/simpleble/simpledbus/include/simpledbus/base/Path.h \
   /home/g6seven/Documents/dev/telemetry/libs/simpleble/simpledbus/include/simpledbus/external/kvn_safe_callback.hpp \
+  /home/g6seven/Documents/dev/telemetry/libs/simpleble/simpledbus/include/simpledbus/interfaces/ObjectManager.h \
+  /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Adapter.h \
+  /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Agent.h \
+  /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Bluez.h \
   /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Characteristic.h \
   /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Descriptor.h \
   /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Device.h \
+  /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Exceptions.h \
   /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Service.h \
   /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Types.h \
+  /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/interfaces/Adapter1.h \
+  /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/interfaces/Agent1.h \
   /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/interfaces/Battery1.h \
   /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/interfaces/Device1.h \
   /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/interfaces/GattCharacteristic1.h \
@@ -114,7 +122,6 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
   /usr/include/c++/14/bits/exception.h \
   /usr/include/c++/14/bits/exception_defines.h \
   /usr/include/c++/14/bits/exception_ptr.h \
-  /usr/include/c++/14/bits/fstream.tcc \
   /usr/include/c++/14/bits/functexcept.h \
   /usr/include/c++/14/bits/functional_hash.h \
   /usr/include/c++/14/bits/hash_bytes.h \
@@ -207,7 +214,6 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
   /usr/include/c++/14/ext/numeric_traits.h \
   /usr/include/c++/14/ext/string_conversions.h \
   /usr/include/c++/14/ext/type_traits.h \
-  /usr/include/c++/14/fstream \
   /usr/include/c++/14/functional \
   /usr/include/c++/14/initializer_list \
   /usr/include/c++/14/iomanip \
@@ -221,6 +227,7 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
   /usr/include/c++/14/memory \
   /usr/include/c++/14/mutex \
   /usr/include/c++/14/new \
+  /usr/include/c++/14/optional \
   /usr/include/c++/14/ostream \
   /usr/include/c++/14/pstl/execution_defs.h \
   /usr/include/c++/14/pstl/glue_memory_defs.h \
@@ -239,10 +246,8 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
   /usr/include/c++/14/unordered_map \
   /usr/include/c++/14/vector \
   /usr/include/c++/14/x86_64-redhat-linux/bits/atomic_word.h \
-  /usr/include/c++/14/x86_64-redhat-linux/bits/basic_file.h \
   /usr/include/c++/14/x86_64-redhat-linux/bits/c++allocator.h \
   /usr/include/c++/14/x86_64-redhat-linux/bits/c++config.h \
-  /usr/include/c++/14/x86_64-redhat-linux/bits/c++io.h \
   /usr/include/c++/14/x86_64-redhat-linux/bits/c++locale.h \
   /usr/include/c++/14/x86_64-redhat-linux/bits/cpu_defines.h \
   /usr/include/c++/14/x86_64-redhat-linux/bits/ctype_base.h \
@@ -323,11 +328,7 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 
 /usr/include/sched.h:
 
-/usr/include/pthread.h:
-
 /usr/include/locale.h:
-
-/usr/include/linux/errno.h:
 
 /usr/include/gnu/stubs-64.h:
 
@@ -343,8 +344,6 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 
 /usr/include/dbus-1.0/dbus/dbus-threads.h:
 
-/usr/include/dbus-1.0/dbus/dbus-signature.h:
-
 /usr/include/dbus-1.0/dbus/dbus-shared.h:
 
 /usr/include/dbus-1.0/dbus/dbus-server.h:
@@ -353,15 +352,21 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 
 /usr/include/dbus-1.0/dbus/dbus-misc.h:
 
+/usr/include/dbus-1.0/dbus/dbus-errors.h:
+
+/usr/include/dbus-1.0/dbus/dbus-connection.h:
+
+/usr/include/dbus-1.0/dbus/dbus-bus.h:
+
+/usr/include/dbus-1.0/dbus/dbus-address.h:
+
+/usr/include/ctype.h:
+
 /usr/include/c++/14/bits/hashtable.h:
 
 /usr/include/c++/14/bits/hash_bytes.h:
 
 /usr/include/c++/14/bits/char_traits.h:
-
-/usr/include/c++/14/bits/fstream.tcc:
-
-/usr/include/c++/14/bits/stl_map.h:
 
 /usr/include/c++/14/bits/erase_if.h:
 
@@ -369,13 +374,7 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 
 /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/interfaces/GattCharacteristic1.h:
 
-/usr/include/c++/14/x86_64-redhat-linux/bits/c++io.h:
-
 /usr/include/c++/14/bits/functexcept.h:
-
-/usr/include/c++/14/bits/istream.tcc:
-
-/home/g6seven/Documents/dev/telemetry/libs/simpleble/external/include/external/kvn_bytearray.h:
 
 /usr/include/c++/14/bits/codecvt.h:
 
@@ -413,11 +412,7 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 
 /usr/include/bits/timesize.h:
 
-/usr/include/c++/14/bits/locale_conv.h:
-
 /usr/include/bits/types/timer_t.h:
-
-/usr/include/c++/14/bits/locale_classes.h:
 
 /usr/include/bits/types/struct_tm.h:
 
@@ -428,8 +423,6 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 /usr/include/c++/14/streambuf:
 
 /usr/include/bits/waitflags.h:
-
-/usr/include/ctype.h:
 
 /usr/include/bits/types/struct_sched_param.h:
 
@@ -445,15 +438,75 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 
 /usr/include/c++/14/bits/move.h:
 
-/usr/include/bits/errno.h:
+/usr/include/bits/types/__locale_t.h:
+
+/usr/include/c++/14/bits/ios_base.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/bits/types/clock_t.h:
+
+/usr/include/c++/14/array:
+
+/usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/c++/14/bits/exception_ptr.h:
+
+/usr/include/bits/types/FILE.h:
 
 /usr/include/bits/timex.h:
 
-/usr/include/c++/14/bits/cxxabi_init_exception.h:
+/usr/include/bits/errno.h:
 
-/usr/include/c++/14/string_view:
+/usr/include/alloca.h:
 
-/usr/include/bits/locale.h:
+/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/interfaces/Battery1.h:
+
+/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/interfaces/Agent1.h:
+
+/usr/include/bits/libc-header-start.h:
+
+/usr/include/bits/types.h:
+
+/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/interfaces/Adapter1.h:
+
+/usr/include/bits/types/struct_timespec.h:
+
+/usr/include/c++/14/concepts:
+
+/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Service.h:
+
+/usr/include/c++/14/tuple:
+
+/usr/include/c++/14/bits/basic_ios.h:
+
+/usr/include/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/c++/14/bits/locale_facets_nonio.h:
+
+/usr/include/dbus-1.0/dbus/dbus-macros.h:
+
+/usr/include/c++/14/x86_64-redhat-linux/bits/c++locale.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/14/include/stdarg.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Exceptions.h:
+
+/usr/include/c++/14/bits/stl_algobase.h:
+
+/usr/include/c++/14/bits/stl_iterator.h:
+
+/usr/include/bits/types/mbstate_t.h:
+
+/usr/include/c++/14/bits/shared_ptr_atomic.h:
+
+/usr/include/c++/14/bits/std_thread.h:
+
+/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Types.h:
+
+/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/interfaces/GattService1.h:
 
 /usr/include/gnu/stubs.h:
 
@@ -473,63 +526,27 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 
 /usr/include/c++/14/cstddef:
 
-/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/interfaces/GattService1.h:
-
 /usr/include/bits/struct_mutex.h:
 
-/usr/include/dbus-1.0/dbus/dbus-bus.h:
-
-/usr/include/c++/14/pstl/glue_memory_defs.h:
-
-/usr/include/bits/time.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/alloca.h:
-
-/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/interfaces/Battery1.h:
-
-/usr/include/bits/types/mbstate_t.h:
-
-/usr/include/c++/14/bits/shared_ptr_atomic.h:
-
-/usr/include/c++/14/bits/std_thread.h:
-
-/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Types.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/14/include/stdarg.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/c++/14/bits/stl_algobase.h:
-
-/usr/include/c++/14/bits/stl_iterator.h:
-
-/usr/include/c++/14/bits/ios_base.h:
-
-/usr/include/bits/types/__locale_t.h:
-
-/usr/include/c++/14/iosfwd:
-
-/home/g6seven/Documents/dev/telemetry/src/main.cpp:
+/usr/include/c++/14/bits/streambuf_iterator.h:
 
 /usr/include/bits/types/locale_t.h:
 
 /home/g6seven/Documents/dev/telemetry/libs/simpleble/simpledbus/include/simpledbus/base/Connection.h:
 
-/usr/include/c++/14/x86_64-redhat-linux/bits/gthr-default.h:
-
-/usr/include/bits/types/cookie_io_functions_t.h:
-
 /usr/include/bits/thread-shared-types.h:
 
-/usr/include/libintl.h:
+/usr/include/c++/14/ext/string_conversions.h:
 
-/usr/include/c++/14/bits/locale_classes.tcc:
+/home/g6seven/Documents/dev/telemetry/libs/simpleble/external/include/external/kvn_bytearray.h:
 
-/usr/include/bits/endianness.h:
+/usr/include/c++/14/bits/istream.tcc:
 
-/usr/include/c++/14/functional:
+/usr/include/linux/errno.h:
+
+/home/g6seven/Documents/dev/telemetry/libs/simpleble/simpledbus/include/simpledbus/interfaces/ObjectManager.h:
+
+/usr/include/c++/14/pstl/glue_memory_defs.h:
 
 /usr/include/c++/14/bits/invoke.h:
 
@@ -553,13 +570,17 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 
 /usr/include/c++/14/x86_64-redhat-linux/bits/c++allocator.h:
 
-/usr/include/bits/types/error_t.h:
+/usr/include/dbus-1.0/dbus/dbus-signature.h:
 
-/usr/include/bits/types/clockid_t.h:
+/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Bluez.h:
 
-/usr/include/bits/stdint-intn.h:
+/usr/include/c++/14/locale:
 
 /usr/include/c++/14/cstdint:
+
+/usr/include/stdc-predef.h:
+
+/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/interfaces/GattDescriptor1.h:
 
 /usr/include/bits/time64.h:
 
@@ -567,55 +588,39 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 
 /usr/include/c++/14/bits/stl_iterator_base_funcs.h:
 
-/usr/include/bits/types/clock_t.h:
+/usr/include/bits/types/error_t.h:
 
-/usr/include/bits/types/__fpos_t.h:
+/usr/include/pthread.h:
+
+/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Agent.h:
 
 /usr/include/bits/floatn.h:
 
 /usr/include/c++/14/bits/quoted_string.h:
 
-/usr/include/c++/14/bits/basic_string.h:
+/usr/include/bits/types/__mbstate_t.h:
 
-/usr/include/c++/14/bits/locale_facets.h:
-
-/usr/include/c++/14/bits/streambuf.tcc:
-
-/usr/include/c++/14/ios:
-
-/usr/include/stdc-predef.h:
-
-/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/interfaces/GattDescriptor1.h:
-
-/usr/include/c++/14/x86_64-redhat-linux/bits/basic_file.h:
-
-/usr/include/c++/14/ext/string_conversions.h:
-
-/usr/include/bits/types.h:
+/usr/include/bits/time.h:
 
 /usr/include/asm-generic/errno.h:
 
-/usr/include/bits/types/struct_timespec.h:
+/usr/include/c++/14/bits/cxxabi_init_exception.h:
 
-/usr/include/c++/14/concepts:
+/usr/include/c++/14/string_view:
 
-/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Service.h:
+/usr/include/bits/stdint-intn.h:
 
-/usr/include/c++/14/tuple:
+/usr/include/bits/types/clockid_t.h:
 
-/usr/include/c++/14/bits/basic_ios.h:
+/usr/include/bits/types/cookie_io_functions_t.h:
 
-/usr/include/bits/pthread_stack_min-dynamic.h:
+/usr/include/c++/14/x86_64-redhat-linux/bits/gthr-default.h:
 
-/usr/include/c++/14/bits/locale_facets_nonio.h:
+/usr/include/bits/locale.h:
 
-/usr/include/dbus-1.0/dbus/dbus-macros.h:
-
-/usr/include/c++/14/x86_64-redhat-linux/bits/c++locale.h:
+/usr/include/c++/14/functional:
 
 /usr/include/bits/floatn-common.h:
-
-/usr/include/bits/libc-header-start.h:
 
 /usr/include/bits/long-double.h:
 
@@ -635,10 +640,6 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 
 /usr/include/bits/select.h:
 
-/usr/include/c++/14/array:
-
-/usr/include/bits/types/__fpos64_t.h:
-
 /home/g6seven/Documents/dev/telemetry/libs/simpleble/simpledbus/include/simpledbus/base/Message.h:
 
 /usr/include/bits/setjmp.h:
@@ -646,6 +647,8 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 /usr/include/bits/types/struct_timeval.h:
 
 /usr/include/c++/14/bits/stl_raw_storage_iter.h:
+
+/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Device.h:
 
 /usr/include/bits/stdint-least.h:
 
@@ -657,11 +660,7 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 
 /usr/include/c++/14/system_error:
 
-/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Device.h:
-
-/usr/include/sys/types.h:
-
-/usr/include/c++/14/bits/atomic_base.h:
+/home/g6seven/Documents/dev/telemetry/libs/simpleble/simpledbus/include/simpledbus/base/Exceptions.h:
 
 /usr/include/bits/types/time_t.h:
 
@@ -675,13 +674,29 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 
 /usr/include/c++/14/thread:
 
+/usr/include/c++/14/bits/locale_classes.h:
+
+/usr/include/libintl.h:
+
+/usr/include/bits/endianness.h:
+
+/usr/include/c++/14/bits/locale_classes.tcc:
+
+/usr/include/c++/14/bits/locale_conv.h:
+
+/home/g6seven/Documents/dev/telemetry/src/main.cpp:
+
+/usr/include/c++/14/iosfwd:
+
+/usr/include/c++/14/bits/basic_string.h:
+
+/usr/include/c++/14/bits/locale_facets.h:
+
+/usr/include/c++/14/bits/streambuf.tcc:
+
+/usr/include/c++/14/ios:
+
 /usr/include/c++/14/bits/locale_facets.tcc:
-
-/usr/include/c++/14/bits/exception_ptr.h:
-
-/usr/include/bits/types/FILE.h:
-
-/usr/include/c++/14/bits/streambuf_iterator.h:
 
 /usr/include/c++/14/bits/ptr_traits.h:
 
@@ -699,9 +714,9 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 
 /usr/include/dbus-1.0/dbus/dbus-memory.h:
 
-/usr/include/bits/sched.h:
-
 /usr/include/bits/types/__FILE.h:
+
+/usr/include/bits/sched.h:
 
 /usr/include/c++/14/bits/node_handle.h:
 
@@ -735,9 +750,9 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 
 /usr/include/c++/14/pstl/pstl_config.h:
 
-/usr/include/c++/14/bits/enable_special_members.h:
-
 /usr/include/bits/types/__sigset_t.h:
+
+/usr/include/c++/14/bits/enable_special_members.h:
 
 /usr/include/c++/14/bits/std_function.h:
 
@@ -763,13 +778,19 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 
 /usr/include/c++/14/bits/stl_iterator_base_types.h:
 
-/usr/include/c++/14/bits/stl_tempbuf.h:
+/usr/include/c++/14/bits/stl_map.h:
 
-/usr/include/dbus-1.0/dbus/dbus-connection.h:
+/usr/include/c++/14/bits/stl_tempbuf.h:
 
 /usr/include/c++/14/bits/stl_tree.h:
 
 /usr/include/c++/14/bits/stl_uninitialized.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/c++/14/bits/atomic_base.h:
+
+/usr/include/c++/14/optional:
 
 /usr/include/c++/14/bits/stringfwd.h:
 
@@ -787,6 +808,8 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 
 /usr/include/c++/14/bits/uses_allocator_args.h:
 
+/home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Adapter.h:
+
 /usr/include/c++/14/bits/vector.tcc:
 
 /usr/include/c++/14/x86_64-redhat-linux/bits/messages_members.h:
@@ -797,9 +820,9 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 
 /usr/include/c++/14/cerrno:
 
-/usr/include/c++/14/atomic:
-
 /usr/include/c++/14/exception:
+
+/usr/include/c++/14/atomic:
 
 /usr/include/c++/14/chrono:
 
@@ -851,8 +874,6 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 
 /usr/include/c++/14/ext/type_traits.h:
 
-/usr/include/c++/14/fstream:
-
 /usr/include/c++/14/bits/functional_hash.h:
 
 /usr/include/c++/14/limits:
@@ -860,8 +881,6 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 /usr/include/c++/14/iomanip:
 
 /usr/include/c++/14/istream:
-
-/usr/include/c++/14/locale:
 
 /usr/include/c++/14/pstl/execution_defs.h:
 
@@ -881,9 +900,9 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 
 /usr/include/c++/14/x86_64-redhat-linux/bits/ctype_base.h:
 
-/home/g6seven/Documents/dev/telemetry/libs/simpleble/simpledbus/include/simpledbus/advanced/Proxy.h:
-
 /usr/include/c++/14/bits/postypes.h:
+
+/home/g6seven/Documents/dev/telemetry/libs/simpleble/simpledbus/include/simpledbus/advanced/Proxy.h:
 
 /usr/include/c++/14/initializer_list:
 
@@ -892,7 +911,3 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: /home/g6seven/Documents/dev/telemet
 /usr/include/c++/14/x86_64-redhat-linux/bits/gthr.h:
 
 /usr/include/c++/14/x86_64-redhat-linux/bits/os_defines.h:
-
-/usr/include/dbus-1.0/dbus/dbus-address.h:
-
-/usr/include/dbus-1.0/dbus/dbus-errors.h:

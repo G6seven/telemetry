@@ -1,7 +1,7 @@
 CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: \
  /home/g6seven/Documents/dev/telemetry/src/main.cpp \
  /usr/include/stdc-predef.h \
- /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Device.h \
+ /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Bluez.h \
  /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/../simpledbus/include/simpledbus/advanced/Proxy.h \
  /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/../simpledbus/include/simpledbus/advanced/Interface.h \
  /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/../simpledbus/include/simpledbus/base/Connection.h \
@@ -177,6 +177,9 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: \
  /usr/include/c++/14/bits/enable_special_members.h \
  /usr/include/c++/14/array /usr/include/c++/14/compare \
  /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/../simpledbus/include/simpledbus/base/Path.h \
+ /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/../simpledbus/include/simpledbus/interfaces/ObjectManager.h \
+ /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Adapter.h \
+ /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Device.h \
  /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Characteristic.h \
  /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Descriptor.h \
  /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Types.h \
@@ -213,9 +216,17 @@ CMakeFiles/RaceTelemetry.dir/src/main.cpp.o: \
  /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/interfaces/GattService1.h \
  /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/interfaces/Battery1.h \
  /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/interfaces/Device1.h \
- /usr/include/c++/14/fstream \
- /usr/include/c++/14/x86_64-redhat-linux/bits/basic_file.h \
- /usr/include/c++/14/x86_64-redhat-linux/bits/c++io.h \
- /usr/include/c++/14/bits/fstream.tcc /usr/include/c++/14/chrono \
- /usr/include/c++/14/thread /usr/include/c++/14/bits/std_thread.h \
- /usr/include/c++/14/bits/this_thread_sleep.h
+ /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/interfaces/Adapter1.h \
+ /usr/include/c++/14/optional \
+ /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Agent.h \
+ /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/interfaces/Agent1.h \
+ /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/include/simplebluez/Exceptions.h \
+ /home/g6seven/Documents/dev/telemetry/libs/simpleble/simplebluez/../simpledbus/include/simpledbus/base/Exceptions.h \
+ /usr/include/c++/14/chrono /usr/include/c++/14/thread \
+ /usr/include/c++/14/bits/std_thread.h \
+ /usr/include/c++/14/bits/this_thread_sleep.h \
+ /usr/include/c++/14/algorithm /usr/include/c++/14/bits/stl_algo.h \
+ /usr/include/c++/14/bits/algorithmfwd.h \
+ /usr/include/c++/14/bits/stl_heap.h \
+ /usr/include/c++/14/bits/uniform_int_dist.h \
+ /usr/include/c++/14/pstl/glue_algorithm_defs.h

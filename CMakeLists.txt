@@ -29,9 +29,9 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 #endif()
 
 # CHECK ALL THE SUBMODULES
-if(NOT EXISTS "${PROJECT_SOURCE_DIR}/libs/simpleble/simplebluez/CMakeLists.txt")
-    message(FATAL_ERROR "The glfw submodules was not downloaded! GIT_SUBMODULE was turned off or failed. Please update submodules and try again.")
-endif()
+# if(NOT EXISTS "${PROJECT_SOURCE_DIR}/libs/simpleble/simplebluez/CMakeLists.txt")
+#   message(FATAL_ERROR "The glfw submodules was not downloaded! GIT_SUBMODULE was turned off or failed. Please update submodules and try again.")
+# endif()
 
 
 add_subdirectory(libs/simpleble/simplebluez)
