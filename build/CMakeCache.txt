@@ -362,6 +362,9 @@ FMT_WERROR:BOOL=OFF
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=/usr/bin/git
 
+//Check submodules during build
+GIT_SUBMODULE:BOOL=ON
+
 //Enable vendorized libfmt
 LIBFMT_VENDORIZE:BOOL=ON
 
