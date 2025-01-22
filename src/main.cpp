@@ -1,6 +1,7 @@
+//simplebluez private libs//
 #include <simplebluez/Bluez.h>
 #include <simplebluez/Exceptions.h>
-
+//standard c++ libs
 #include <atomic>
 #include <chrono>
 #include <cstdlib>
@@ -8,6 +9,8 @@
 #include <iostream>
 #include <thread>
 #include <algorithm>
+
+
 SimpleBluez::Bluez bluez;
 
 std::atomic_bool async_thread_active = true;
